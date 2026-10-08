@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Flutter
+mobile/.dart_tool/
+mobile/.packages
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

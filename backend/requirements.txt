@@ -1,0 +1,10 @@
+# NESTORA backend dependencies
+#
+# Lower bounds rather than hard pins: the previous exact pins
+# (pydantic==2.9.0) fail to build on Python 3.13/3.14. These versions are
+# verified working on Python 3.10 through 3.14.
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.9.0
+motor>=3.5.0
+python-dotenv>=1.0.1
